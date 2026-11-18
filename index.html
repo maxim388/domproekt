@@ -92,86 +92,90 @@
     </div>
   </section>
 
-  <div class="catalog-grid" id="catalogGrid">
+  <!-- ================= КАТАЛОГ ПРОЕКТОВ ================= -->
+  <section class="catalog" id="catalog">
+    <div class="container">
+      <h2 class="section-title">Каталог проектов</h2>
+      <p class="section-sub">Выбери стилистику дома, затем планировку. Каждый проект адаптируется под ваш участок и
+        бюджет.</p>
 
-    <!-- Карточка 1: Проект #747 -->
-    <div class="catalog-card">
-      <div class="catalog-img-wrap"
-        data-gallery='["projects/747/cover.jpg", "projects/747/1.jpg", "projects/747/2.jpg", "projects/747/3.jpg", "projects/747/4.jpg", "projects/747/5.jpg", "projects/747/6.jpg", "projects/747/plan.jpg"]'>
-        <div class="catalog-slider">
-          <img src="projects/747/cover.jpg" alt="Проект 747 — обложка" class="catalog-img active">
-          <img src="projects/747/1.jpg" alt="Проект 747 — вид 1" class="catalog-img" loading="lazy">
-          <img src="projects/747/2.jpg" alt="Проект 747 — вид 2" class="catalog-img" loading="lazy">
-          <img src="projects/747/3.jpg" alt="Проект 747 — вид 3" class="catalog-img" loading="lazy">
-          <img src="projects/747/4.jpg" alt="Проект 747 — вид 4" class="catalog-img" loading="lazy">
-          <img src="projects/747/5.jpg" alt="Проект 747 — вид 5" class="catalog-img" loading="lazy">
-          <img src="projects/747/6.jpg" alt="Проект 747 — вид 6" class="catalog-img" loading="lazy">
-          <img src="projects/747/plan.jpg" alt="Проект 747 — планировка" class="catalog-img" loading="lazy">
+      <div class="catalog-grid" id="catalogGrid">
+
+        <!-- Карточка 1: Проект #747 -->
+        <div class="catalog-card">
+          <div class="catalog-img-wrap"
+            data-gallery='["projects/747/cover.jpg", "projects/747/1.jpg", "projects/747/2.jpg", "projects/747/3.jpg", "projects/747/4.jpg", "projects/747/5.jpg", "projects/747/6.jpg", "projects/747/plan.jpg"]'>
+            <div class="catalog-slider">
+              <img src="projects/747/cover.jpg" alt="Проект 747 — обложка" class="catalog-img active">
+              <img src="projects/747/1.jpg" alt="Проект 747 — вид 1" class="catalog-img" loading="lazy">
+              <img src="projects/747/2.jpg" alt="Проект 747 — вид 2" class="catalog-img" loading="lazy">
+              <img src="projects/747/3.jpg" alt="Проект 747 — вид 3" class="catalog-img" loading="lazy">
+              <img src="projects/747/4.jpg" alt="Проект 747 — вид 4" class="catalog-img" loading="lazy">
+              <img src="projects/747/5.jpg" alt="Проект 747 — вид 5" class="catalog-img" loading="lazy">
+              <img src="projects/747/6.jpg" alt="Проект 747 — вид 6" class="catalog-img" loading="lazy">
+              <img src="projects/747/plan.jpg" alt="Проект 747 — планировка" class="catalog-img" loading="lazy">
+            </div>
+            <button class="slider-arrow prev" aria-label="Предыдущее фото">‹</button>
+            <button class="slider-arrow next" aria-label="Следующее фото">›</button>
+            <div class="slider-dots"></div>
+            <span class="catalog-badge">Модерн</span>
+          </div>
+          <div class="catalog-info">
+            <h3>Проект #747</h3>
+            <div class="catalog-meta">
+              <span>200 м²</span>
+              <span>1 этаж</span>
+              <span>4 спальни</span>
+            </div>
+          </div>
         </div>
-        <button class="slider-arrow prev" aria-label="Предыдущее фото">‹</button>
-        <button class="slider-arrow next" aria-label="Следующее фото">›</button>
-        <div class="slider-dots"></div>
-        <span class="catalog-badge">Модерн</span>
-      </div>
-      <div class="catalog-info">
-        <h3>Проект #747</h3>
-        <div class="catalog-meta">
-          <span>200 м²</span>
-          <span>1 этаж</span>
-          <span>4 спальни</span>
+
+        <!-- Карточка 2: Комфортный дом -->
+        <div class="catalog-card">
+          <div class="catalog-img-wrap" data-gallery='["projects/200/cover.jpg"]'>
+            <div class="catalog-slider">
+              <img src="projects/200/cover.jpg" alt="Комфортный дом — фасад" class="catalog-img active">
+            </div>
+            <button class="slider-arrow prev" aria-label="Предыдущее фото">‹</button>
+            <button class="slider-arrow next" aria-label="Следующее фото">›</button>
+            <div class="slider-dots"></div>
+            <span class="catalog-badge">Модерн</span>
+          </div>
+          <div class="catalog-info">
+            <h3>Комфортный дом</h3>
+            <div class="catalog-meta">
+              <span>271 м²</span>
+              <span>1 этаж</span>
+              <span>4 спальни</span>
+            </div>
+
+          </div>
         </div>
-        <p>Дом с 4 спальнями и гаражом, д. Дуброво. Просторная гостиная, терраса и продуманная планировка для семьи.</p>
-        <a href="#contact" class="catalog-btn">Заказать проект</a>
+
+        <!-- Карточка 3: Простой дом -->
+        <div class="catalog-card">
+          <div class="catalog-img-wrap" data-gallery='["projects/200/cover.jpg"]'>
+            <div class="catalog-slider">
+              <img src="projects/200/cover.jpg" alt="Простой дом — фасад" class="catalog-img active">
+            </div>
+            <button class="slider-arrow prev" aria-label="Предыдущее фото">‹</button>
+            <button class="slider-arrow next" aria-label="Следующее фото">›</button>
+            <div class="slider-dots"></div>
+            <span class="catalog-badge">Модерн</span>
+          </div>
+          <div class="catalog-info">
+            <h3>Простой дом</h3>
+            <div class="catalog-meta">
+              <span>102 м²</span>
+              <span>1 этаж</span>
+              <span>3 спальни</span>
+            </div>
+          </div>
+        </div>
+
       </div>
     </div>
-
-    <!-- Карточка 2: Комфортный дом (заглушка) -->
-    <div class="catalog-card">
-      <div class="catalog-img-wrap" data-gallery='["comfort.jpg"]'>
-        <div class="catalog-slider">
-          <img src="comfort.jpg" alt="Комфортный дом — фасад" class="catalog-img active">
-        </div>
-        <button class="slider-arrow prev" aria-label="Предыдущее фото">‹</button>
-        <button class="slider-arrow next" aria-label="Следующее фото">›</button>
-        <div class="slider-dots"></div>
-        <span class="catalog-badge">Модерн</span>
-      </div>
-      <div class="catalog-info">
-        <h3>Комфортный дом</h3>
-        <div class="catalog-meta">
-          <span>271 м²</span>
-          <span>1 этаж</span>
-          <span>4 спальни</span>
-        </div>
-        <p>Дом для постоянного проживания белорусской семьи рядом с Минском.</p>
-        <a href="#contact" class="catalog-btn">Заказать проект</a>
-      </div>
-    </div>
-
-    <!-- Карточка 3: Простой дом (заглушка) -->
-    <div class="catalog-card">
-      <div class="catalog-img-wrap" data-gallery='["simple.jpg"]'>
-        <div class="catalog-slider">
-          <img src="simple.jpg" alt="Простой дом — фасад" class="catalog-img active">
-        </div>
-        <button class="slider-arrow prev" aria-label="Предыдущее фото">‹</button>
-        <button class="slider-arrow next" aria-label="Следующее фото">›</button>
-        <div class="slider-dots"></div>
-        <span class="catalog-badge">Модерн</span>
-      </div>
-      <div class="catalog-info">
-        <h3>Простой дом</h3>
-        <div class="catalog-meta">
-          <span>102 м²</span>
-          <span>1 этаж</span>
-          <span>3 спальни</span>
-        </div>
-        <p>Небольшая площадь, три спальни и большая гостиная с террасой.</p>
-        <a href="#contact" class="catalog-btn">Заказать проект</a>
-      </div>
-    </div>
-
-  </div>
+  </section>
 
   <!-- ================= ОБ АРХИТЕКТОРЕ ================= -->
   <section class="about" id="about" style="background: var(--white);">
@@ -319,4 +323,275 @@
           +375 (29) 604-42-22
         </a>
         <a href="mailto:6044222@gmail.com">
-          <svg class="icon" viewBox="0 0 24
+          <svg class="icon" viewBox="0 0 24 24">
+            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+            <polyline points="22,6 12,13 2,6"></polyline>
+          </svg>
+          6044222@gmail.com
+        </a>
+        <span>
+          <svg class="icon" viewBox="0 0 24 24">
+            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+            <circle cx="12" cy="10" r="3"></circle>
+          </svg>
+          Минск, ул. Шугаева, 19к2
+        </span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= ПОДВАЛ ================= -->
+  <footer>
+    <div class="container">
+      © 2026 ДОМПРОЕКТ. Проектирование коттеджей и дизайн интерьера в Минске.
+      <br><br>
+      <a href="privacy.html">Политика обработки персональных данных</a>
+    </div>
+  </footer>
+
+  <!-- ================= ЛАЙТБОКС ================= -->
+  <div id="lightbox" class="lightbox">
+    <button class="lightbox-close" aria-label="Закрыть">×</button>
+    <button class="lightbox-arrow prev" aria-label="Назад">‹</button>
+    <img src="" alt="Просмотр проекта" class="lightbox-img" id="lightboxImg">
+    <button class="lightbox-arrow next" aria-label="Вперед">›</button>
+    <div class="lightbox-counter" id="lightboxCounter"></div>
+  </div>
+
+  <!-- ========== ЯНДЕКС.МЕТРИКА ========== -->
+  <script>
+    (function (m, e, t, r, i, k, a) {
+      m[i] = m[i] || function () { (m[i].a = m[i].a || []).push(arguments) };
+      m[i].l = 1 * new Date(); k = e.createElement(t), a = e.getElementsByTagName(t)[0],
+        k.async = 1, k.src = r, a.parentNode.insertBefore(k, a)
+    })
+      (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+    ym(00000000, "init", { clickmap: true, trackLinks: true, accurateTrackBounce: true });
+  </script>
+  <noscript>
+    <div><img src="https://mc.yandex.ru/watch/00000000" style="position:absolute;left:-9999px" alt=""></div>
+  </noscript>
+
+  <!-- ========== ВСЕ СКРИПТЫ ========== -->
+  <script>
+    // ===== КОНСТАНТЫ =====
+    const TG_TOKEN = '9109588636:AAENlI_ud_7DKu0nHzMQlo4fxAOcvrTx1UY';
+    const TG_CHAT = '615137898';
+    const SHEETS_URL = 'https://script.google.com/macros/s/AKfycbxc2l1I0BLuwM-HpxymAmVEkfQG8zqGeILA2DxK7Flqss9CX5tvR3fRdwrD8S01WMIW/exec';
+    const YM_ID = 00000000;
+
+    // ===== UTM =====
+    function getUTM() {
+      const p = new URLSearchParams(location.search);
+      const utm = {};
+      ['source', 'medium', 'campaign', 'content', 'term'].forEach(k => {
+        const v = p.get('utm_' + k);
+        if (v) utm['utm_' + k] = v;
+      });
+      if (Object.keys(utm).length && !sessionStorage.getItem('utm'))
+        sessionStorage.setItem('utm', JSON.stringify(utm));
+      return Object.keys(utm).length ? utm : JSON.parse(sessionStorage.getItem('utm') || '{}');
+    }
+
+    // ===== TELEGRAM =====
+    async function sendToTelegram(d) {
+      const text =
+        `🏠 <b>Новая заявка с сайта</b>\n\n` +
+        `👤 <b>Имя:</b> ${d.name}\n` +
+        `📞 <b>Телефон:</b> ${d.phone}\n` +
+        `💬 <b>Сообщение:</b> ${d.message || '—'}\n` +
+        `🎟 <b>Промокод:</b> ${d.promo || '—'}\n\n` +
+        `📊 <b>Источник:</b> ${d.utm_source || 'прямой заход'}\n` +
+        `🎯 <b>Кампания:</b> ${d.utm_campaign || '—'}\n` +
+        `🔗 <b>Страница:</b> ${d.page}\n` +
+        `⏰ ${new Date(d.date).toLocaleString('ru-RU')}`;
+      await fetch(`https://api.telegram.org/bot${TG_TOKEN}/sendMessage`, {
+        method: 'POST', headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ chat_id: TG_CHAT, text, parse_mode: 'HTML' })
+      });
+    }
+
+    // ===== SHEETS =====
+    async function sendToSheets(d) {
+      await fetch(SHEETS_URL, {
+        method: 'POST', mode: 'no-cors',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(d)
+      });
+    }
+
+    // ===== LOCAL =====
+    function saveLocal(d) {
+      const leads = JSON.parse(localStorage.getItem('leads') || '[]');
+      leads.push(d);
+      localStorage.setItem('leads', JSON.stringify(leads));
+    }
+
+    // ===== PHONE MASK =====
+    const phoneInput = document.getElementById('phoneInput');
+    function formatPhone(value) {
+      let digits = value.replace(/\D/g, '');
+      if (digits.startsWith('375')) digits = digits.slice(3);
+      if (digits.startsWith('80')) digits = digits.slice(2);
+      digits = digits.slice(0, 9);
+      let result = '+375';
+      if (digits.length > 0) result += ' (' + digits.slice(0, 2);
+      if (digits.length >= 2) result += ')';
+      if (digits.length > 2) result += ' ' + digits.slice(2, 5);
+      if (digits.length > 5) result += '-' + digits.slice(5, 7);
+      if (digits.length > 7) result += '-' + digits.slice(7, 9);
+      return result;
+    }
+    function isValidPhone(value) {
+      const digits = value.replace(/\D/g, '');
+      return /^375(25|29|33|44)\d{7}$/.test(digits);
+    }
+    phoneInput.addEventListener('input', (e) => {
+      e.target.value = formatPhone(e.target.value);
+      e.target.classList.remove('invalid');
+    });
+    phoneInput.addEventListener('focus', (e) => {
+      if (!e.target.value) e.target.value = '+375 (';
+    });
+    phoneInput.addEventListener('blur', (e) => {
+      if (e.target.value === '+375 (') e.target.value = '';
+      if (e.target.value && !isValidPhone(e.target.value)) {
+        e.target.classList.add('invalid');
+      }
+    });
+
+    // ===== FORM =====
+    document.getElementById('leadForm').addEventListener('submit', async (e) => {
+      e.preventDefault();
+      const form = e.target;
+      const fd = new FormData(form);
+      if (fd.get('website')) return;
+      if (!fd.get('consent')) {
+        const s = document.getElementById('formStatus');
+        s.textContent = '⚠️ Необходимо согласие на обработку персональных данных';
+        s.style.color = '#ffb3b3';
+        return;
+      }
+      if (!isValidPhone(fd.get('phone'))) {
+        phoneInput.classList.add('invalid');
+        const s = document.getElementById('formStatus');
+        s.textContent = '⚠️ Введите корректный номер: +375 (XX) XXX-XX-XX';
+        s.style.color = '#ffb3b3';
+        phoneInput.focus();
+        return;
+      }
+      const utm = getUTM();
+      const lead = {
+        name: fd.get('name').trim(),
+        phone: fd.get('phone').trim(),
+        message: fd.get('message').trim(),
+        promo: (fd.get('promo') || '').trim().toUpperCase(),
+        consent: 'да, ' + new Date().toISOString(),
+        ...utm,
+        page: location.href,
+        referrer: document.referrer || 'прямой',
+        date: new Date().toISOString()
+      };
+      const status = document.getElementById('formStatus');
+      status.textContent = 'Отправляем…';
+      status.style.color = '#fff';
+      saveLocal(lead);
+      try {
+        await Promise.all([sendToTelegram(lead), sendToSheets(lead)]);
+        if (window.ym) ym(YM_ID, 'reachGoal', 'lead');
+        status.textContent = '✅ Заявка отправлена! Свяжемся с вами в течение дня.';
+        status.style.color = '#a8e6a1';
+        form.reset();
+      } catch (err) {
+        status.textContent = '⚠️ Не удалось отправить. Позвоните: +375 (29) 604-42-22';
+        status.style.color = '#ffb3b3';
+      }
+    });
+
+    // ===== ЛАЙТБОКС =====
+    const lightbox = document.getElementById('lightbox');
+    const lightboxImg = document.getElementById('lightboxImg');
+    const lightboxCounter = document.getElementById('lightboxCounter');
+    let lightboxImages = [];
+    let lightboxIndex = 0;
+
+    function openLightbox(images, index) {
+      lightboxImages = images;
+      lightboxIndex = index;
+      lightboxImg.src = images[index];
+      updateLightboxCounter();
+      lightbox.classList.add('active');
+      document.body.style.overflow = 'hidden';
+    }
+    function closeLightbox() {
+      lightbox.classList.remove('active');
+      document.body.style.overflow = '';
+    }
+    function showLightboxImage(index) {
+      lightboxIndex = (index + lightboxImages.length) % lightboxImages.length;
+      lightboxImg.src = lightboxImages[lightboxIndex];
+      updateLightboxCounter();
+    }
+    function updateLightboxCounter() {
+      lightboxCounter.textContent = `${lightboxIndex + 1} / ${lightboxImages.length}`;
+    }
+
+    lightbox.querySelector('.lightbox-close').addEventListener('click', closeLightbox);
+    lightbox.querySelector('.prev').addEventListener('click', () => showLightboxImage(lightboxIndex - 1));
+    lightbox.querySelector('.next').addEventListener('click', () => showLightboxImage(lightboxIndex + 1));
+    lightbox.addEventListener('click', (e) => { if (e.target === lightbox) closeLightbox(); });
+    document.addEventListener('keydown', (e) => {
+      if (!lightbox.classList.contains('active')) return;
+      if (e.key === 'Escape') closeLightbox();
+      if (e.key === 'ArrowLeft') showLightboxImage(lightboxIndex - 1);
+      if (e.key === 'ArrowRight') showLightboxImage(lightboxIndex + 1);
+    });
+    let lbStartX = 0;
+    lightbox.addEventListener('touchstart', (e) => { lbStartX = e.touches[0].clientX; }, { passive: true });
+    lightbox.addEventListener('touchend', (e) => {
+      const dx = e.changedTouches[0].clientX - lbStartX;
+      if (Math.abs(dx) > 50) showLightboxImage(lightboxIndex + (dx < 0 ? 1 : -1));
+    });
+
+    // ===== КАРУСЕЛИ В КАРТОЧКАХ =====
+    document.querySelectorAll('.catalog-img-wrap').forEach(wrap => {
+      const slider = wrap.querySelector('.catalog-slider');
+      const imgs = slider.querySelectorAll('.catalog-img');
+      const dotsContainer = wrap.querySelector('.slider-dots');
+      const galleryJson = wrap.dataset.gallery;
+      const galleryImages = galleryJson ? JSON.parse(galleryJson) : Array.from(imgs).map(img => img.src);
+      let current = 0;
+
+      imgs.forEach((_, i) => {
+        const dot = document.createElement('span');
+        if (i === 0) dot.classList.add('active');
+        dot.addEventListener('click', (e) => { e.stopPropagation(); show(i); });
+        dotsContainer.appendChild(dot);
+      });
+
+      function show(index) {
+        current = (index + imgs.length) % imgs.length;
+        imgs.forEach((img, i) => img.classList.toggle('active', i === current));
+        dotsContainer.querySelectorAll('span').forEach((d, i) => d.classList.toggle('active', i === current));
+      }
+
+      wrap.querySelector('.prev').addEventListener('click', (e) => { e.stopPropagation(); show(current - 1); });
+      wrap.querySelector('.next').addEventListener('click', (e) => { e.stopPropagation(); show(current + 1); });
+
+      let startX = 0;
+      wrap.addEventListener('touchstart', (e) => { startX = e.touches[0].clientX; }, { passive: true });
+      wrap.addEventListener('touchend', (e) => {
+        const dx = e.changedTouches[0].clientX - startX;
+        if (Math.abs(dx) > 40) show(current + (dx < 0 ? 1 : -1));
+      });
+
+      slider.addEventListener('click', () => {
+        openLightbox(galleryImages, current);
+      });
+      slider.style.cursor = 'zoom-in';
+    });
+  </script>
+
+</body>
+
+</html>
